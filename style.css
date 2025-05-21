@@ -1,9 +1,93 @@
 body {
-    background: linear-gradient(to right, #ff00c3, #ff00c3);
-    font-family: 'Arial', sans-serif;
+    background-color: #c31ec3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font: normal 18pt arial;
+    margin: 0;
+    padding: 0; 
+}
+
+.comeco {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, #ff00c3 21%, rgba(0,0,0,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+/* margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 40px; */
+    margin: 50px 40px;
     text-align: center;
-    padding: 50px;
-    color: #fff;
+} 
+p {
+    color: white;
+    text-indent: 50px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+} 
+.menu {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);   
+    list-style: none; /*Deixa a lista sem marcação*/
+    text-align: center;
+    text-transform: pathway gothic one;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 0;
+}
+.menu li {
+    display: inline-block;
+    margin: 30px 60px;
+}
+.menu a {
+    text-transform: none;
+    color: #ff00c3;
+}
+.menu a:hover {
+    color: black;
+}
+.secoes {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+footer{
+    text-align: right;
+    align-content: center;
+    height: 100px;
+    background-color:rgb(37, 37, 37);
+    padding-right: 20px;
+}
+.titulo{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 64px;
+}
+.titulos-lista{
+    font-size: 1.15rem !important;
+    line-height: 1.4rem !important;
+    color: #333;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.str{
+    margin: 0 20%;
+    min-height: 400px;
+}
+@media (max-width: 1000px) {
+    .inicio{
+        margin: 0 20px;    
+    }
 }
 
 .container {
@@ -12,19 +96,12 @@ body {
     padding: 30px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     display: inline-block;
-}
-
-h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 1.5em;
+    margin-left: 20%;
 }
 
 button {
     margin-top: 20px;
+    margin-left: 32%;
     padding: 15px 30px;
     font-size: 1.2em;
     background-color: #ff00c3;
