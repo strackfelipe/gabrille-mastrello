@@ -12,12 +12,13 @@ body {
 }
 
 .comeco {
-    background: rgb(#ff00c3);
+    background-image: url(banne.png);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 250px;
+    height: 60vh;
+
 }
 h1 {
     color: rgb(0, 0, 0);
@@ -97,12 +98,14 @@ footer{
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     display: inline-block;
     margin-left: 18%;
+    margin-bottom: 3%;
 
 }
 
 button {
     margin-top: 20px;
     margin-left: 32%;
+    margin-bottom: 3%;
     padding: 15px 30px;
     font-size: 1.2em;
     background-color: #ffffff;
@@ -126,4 +129,8 @@ button:hover {
     font-size: 1.8em;
     color: #fffb00;
     display: none;
+}
+
+.textoa{
+    margin: 10%;
 }
